@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="100dp"/>
+    <Button 111
+        android:id="@+id/startPause"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textSize="60dp"
+        android:text="Start"/>
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textSize="60dp"
+        android:text="Reset"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:id="@+id/lapMessage"/>
+
+
+</LinearLayout>

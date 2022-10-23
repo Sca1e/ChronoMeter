@@ -18,7 +18,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-//
         buttonStartPause = findViewById(R.id.startPause)
         buttonReset = findViewById(R.id.reset)
         chronometer = findViewById(R.id.chronometer)
